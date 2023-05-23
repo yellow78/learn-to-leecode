@@ -1,0 +1,9 @@
+unordered_map
+無序map容器
+unordered_map 容器不會像map 容器那樣對存儲的數據進行排序
+map 容器中存儲的數據是有序的，而unordered_map 容器中是無序的
+具體來講，unordered_map 容器和map 容器一樣，以鍵值對（pair類型）的形式存儲數據，存儲的各個鍵值對的鍵互不相同且不允許被修改。但由於unordered_map 容器底層採用的是哈希表存儲結構，該結構本身不具有對數據的排序功能，所以此容器內部不會自行對存儲的鍵值對進行排序
+
+golang map為無序因此每次歷覽key&value順序會改變, 若要有序要轉換存為slice切片中
+
+map 用雜湊表查詢較快
