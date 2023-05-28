@@ -5,6 +5,8 @@ import (
 	// "learnToLeecode/internal/array/twoSum"
 	"learnToLeecode/internal/hashTable/twoSum"
 	"learnToLeecode/internal/math/palindroMenumber"
+	"learnToLeecode/internal/sort/bubbleSort"
+	"learnToLeecode/internal/string/bigAdd"
 	"learnToLeecode/internal/string/romanToInteger"
 )
 
@@ -20,4 +22,11 @@ func main() {
 	set3 := 121
 	result3 := palindroMenumber.PalindromeNumber(set3)
 	fmt.Println(result3)
+
+	set4 := []int{6, 5, 4, 1, 2, 3}
+	result4 := bubbleSort.BubbleSort(set4)
+	fmt.Println(result4)
+
+	result5 := bigAdd.BigAdd("9123467", "33")
+	fmt.Println(result5)
 }
