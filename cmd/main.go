@@ -7,6 +7,7 @@ import (
 	"learnToLeecode/internal/math/palindroMenumber"
 	"learnToLeecode/internal/sort/bubbleSort"
 	"learnToLeecode/internal/string/bigAdd"
+	"learnToLeecode/internal/string/reverseStr"
 	"learnToLeecode/internal/string/romanToInteger"
 )
 
@@ -29,4 +30,7 @@ func main() {
 
 	result5 := bigAdd.BigAdd("9123467", "33")
 	fmt.Println(result5)
+
+	result6 := reverseStr.ReverseStr("123456789")
+	fmt.Println(result6)
 }
